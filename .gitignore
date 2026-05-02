@@ -1,13 +1,29 @@
+# Docker
+.env
+.env.*
+docker-compose.override.yml
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Database local volumes
+db_data/
+mysql_data/
+*.sqlite3
+
+# Build artifacts
 build/
 _build/
-file.txt
-*.o
-*.a
-*.so
-*.exe
-.deps/
-*.swp
-
 artifacts/
 *.tar.gz
 *.deb
@@ -15,6 +31,14 @@ artifacts/
 *.zip
 *.msi
 *.dmg
+
+# Compiled files
+*.o
+*.a
+*.exe
+.deps/
+
+# Editor files
 .vscode/
 .idea/
 *.swp
@@ -22,3 +46,8 @@ artifacts/
 *~
 .DS_Store
 Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+.env
