@@ -685,10 +685,10 @@ effc73edfbd6   lab_docker-web   "python app.py"          8 minutes ago   Up 8 mi
 
 5)Копируем ссылку `http://localhost:5000` из терминала и переходим по ней, наблюдая сайт с нашими данными:
 
-<img width="560" height="209" alt="image" src="https://github.com/user-attachments/assets/dd285fd3-0903-4acc-b1db-10ba4fcc5a1f" />
+<img width="560" height="209" alt="image" src="https://github.com/user-attachments/assets/8bde5d0d-981d-4858-96f4-73ec0d9d89d0" />
 
 6)Останаливаем контейнеры командой `docker compose down` и ради интереса ещё раз пишем `curl http://localhost:500`:
 
-<img width="606" height="277" alt="image" src="https://github.com/user-attachments/assets/7da42ae9-17ab-4914-897f-970faa4f97f4" />
+<img width="606" height="277" alt="image" src="https://github.com/user-attachments/assets/d83239ee-a668-4320-b194-c543bd958a6a" />
 
 7)Отправляем все наши файлы на `GitHub` с помощью стандартных команд `Git`.
