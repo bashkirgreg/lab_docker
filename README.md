@@ -250,7 +250,7 @@ Hello, Docker!
 Создаём ещё один файл, который уже запустит несколько контейнеров одновременно:
 ```sh
 $ cat >> docker-compose.yml <<EOF
-ersion: '3.8'
+version: '3.8'
 
 services:
   app:
